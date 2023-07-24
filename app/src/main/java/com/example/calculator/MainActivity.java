@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     //Tinh toan
                     BigDecimal number1 = new BigDecimal(numbers[0]);
                     BigDecimal number2 = new BigDecimal(numbers[1]);
-                    BigDecimal resultOfSubtract = number1.subtract(number2);
+                    BigDecimal resultOfSubtract = number2.subtract(number1);
                     String d = resultOfSubtract.toString();
                     output = d;
                     //Xu ly so thap phan
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     BigDecimal number1 = new BigDecimal(numbers[0]);
                     BigDecimal number2 = new BigDecimal(numbers[1]);
-                    BigDecimal resultOfSubtract = number2.subtract(number1);
+                    BigDecimal resultOfSubtract = number1.subtract(number2);
                     String d = resultOfSubtract.toString();
                     output = d;
                     newOutPut = cutDecimal(output);
